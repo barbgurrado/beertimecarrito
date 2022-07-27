@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer Time</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="./main.css" rel="stylesheet" />
+</head>
+<body>
+  <!--  Banner -->
+  <div class="banner">
+    <div class="envio">Envío Gratis</div>
+     <div>desde $5999 solo CABA y zonas* de GBA</div>
+     <div class="cuotas">+ 3 cuotas sin interés</div>
+   </div>
+
+  <!--  Carrito  -->
+  <div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">El carrito esta vacio</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price" id="total-price">$0</span>
+              <button class="purchase-btn">COMPRAR</button>
+        </div>
+      </div>
+    </div>
+<!--   Fin Carrito -->
+  <a class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </a>
+<!--  Productos  -->
+  <div class="items-container">
+    <div class="card-1 card" id="item1">
+      <img class="product-image" src="fotos/Andes.jpg" alt="Andes Origen Roja">
+        <h3>Andes Origen Roja</h3>
+        <button class="add-to-cart">Comprar</button>
+        $<span class="product-price">990</span>
+    </div>
+    <div class="card-2 card" id="item2">
+        <img class="product-image" src="fotos/Corona.jpg" alt="Corona Lata">
+        <h3>Corona Lata</h3>
+        <button class="add-to-cart">Comprar</button>
+        $<span class="product-price">1540</span>
+    </div>
+    <div class="card-3 card" id="item3">
+        <img class="product-image" src="fotos/Patagonia.jpg" alt="Patagonia Amber Lager">
+        <h3>Patagonia Amber Lager</h3>
+        <button class="add-to-cart">Comprar</button>
+        $<span class="product-price">1152</span>
+    </div>
+    <div class="card-4 card" id="item4">
+        <img class="product-image" src="fotos/Quilmes.jpg" alt="Quilmes Red Lager Lata">
+        <h3>Quilmes Red Lager Lata</h3>
+        <button class="add-to-cart">Comprar</button>
+        $<span class="product-price">816</span>
+    </div>
+    <div class="card-5 card" id="item5">
+        <img class="product-image" src="fotos/Stella.jpg" alt="Stella Artois Lata">
+        <h3>Stella Artois Lata</h3>
+        <button class="add-to-cart">Comprar</button>
+      $<span class="product-price">1070</span>
+    </div>
+  </div>
+<footer>Beer Time (c) 2022</footer>
+<!--  ACÁ ESTA EL SCRIPT  -->
+<script src="./main.js"></script>
+</body>
+</html>
